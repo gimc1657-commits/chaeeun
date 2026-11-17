@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>김채은의 자기소개</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Malgun Gothic', sans-serif;
+    background: #eeeeee;
+    color: #444444;
+    line-height: 1.8;
+}
+
+/* 첫 화면 */
+header {
+    background: linear-gradient(135deg, #d1d1d1, #eeeeee);
+    text-align: center;
+    padding: 90px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    color: #333333;
+    letter-spacing: 2px;
+}
+
+header p {
+    margin-top: 12px;
+    color: #666666;
+    font-size: 17px;
+}
+
+/* 메뉴 */
+nav {
+    background: #444444;
+    padding: 17px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #c5c5c5;
+}
+
+/* 내용 */
+section {
+    max-width: 850px;
+    margin: 35px auto;
+    padding: 35px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+h2 {
+    color: #555555;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #dddddd;
+    font-size: 24px;
+}
+
+.info {
+    padding: 7px 0;
+}
+
+.cat {
+    display: inline-block;
+    background: #eeeeee;
+    padding: 20px;
+    margin: 10px 5px;
+    border-radius: 12px;
+    min-width: 200px;
+}
+
+.cat h3 {
+    color: #444444;
+    margin-bottom: 5px;
+}
+
+/* 소개 문구 */
+.intro {
+    text-align: center;
+    color: #666666;
+    padding: 10px;
+}
+
+/* 하단 */
+footer {
+    background: #444444;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+/* 모바일 */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 29px;
+    }
+
+    nav a {
+        margin: 0 6px;
+        font-size: 12px;
+    }
+
+    section {
+        margin: 20px 12px;
+        padding: 23px;
+    }
+
+    .cat {
+        width: 100%;
+        margin: 8px 0;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>HELLO, I'M CHAE EUN</h1>
+    <p>안녕하세요! 김채은의 자기소개 홈페이지입니다.</p>
+</header>
+
+<nav>
+    <a href="#about">ABOUT ME</a>
+    <a href="#family">FAMILY</a>
+    <a href="#cats">MY CATS</a>
+    <a href="#favorite">FAVORITE</a>
+    <a href="#hobby">HOBBY</a>
+</nav>
+
+<section id="about">
+    <h2>01. ABOUT ME</h2>
+    <div class="info">이름 : 김채은</div>
+    <div class="info">나이 : 21살</div>
+    <div class="info">학교 : 건양대학교</div>
+    <div class="info">학과 : 방사선학과</div>
+    <div class="info">운동 : 좋아하지 않음</div>
+
+    <p class="intro">
+        현재 건양대학교 방사선학과에 재학 중이며,
+        전공 공부를 통해 의료영상과 방사선 분야에 대해
+        하나씩 배워가고 있습니다.
+    </p>
+</section>
+
+<section id="family">
+    <h2>02. MY FAMILY</h2>
+    <p>저희 가족은 총 4명입니다.</p>
+
+    <div class="cat">
+        <h3>👨 아빠</h3>
+        <p>우리 가족의 아빠</p>
+    </div>
+
+    <div class="cat">
+        <h3>👩 엄마</h3>
+        <p>우리 가족의 엄마</p>
+    </div>
+
+    <div class="cat">
+        <h3>👧 언니</h3>
+        <p>나의 언니</p>
+    </div>
+
+    <div class="cat">
+        <h3>🩶 나</h3>
+        <p>김채은</p>
+    </div>
+</section>
+
+<section id="cats">
+    <h2>03. MY CATS</h2>
+    <p>우리 집에서 함께 생활하는 귀여운 고양이 두 마리!</p>
+
+    <div class="cat">
+        <h3>🐱 레이</h3>
+        <p>우리 집 첫 번째 고양이</p>
+    </div>
+
+    <div class="cat">
+        <h3>🐱 렌또</h3>
+        <p>우리 집 두 번째 고양이</p>
+    </div>
+</section>
+
+<section id="favorite">
+    <h2>04. MY FAVORITE</h2>
+    <div class="cat">
+        <h3>🍲 가장 좋아하는 음식</h3>
+        <p>김치찌개!</p>
+        <p>맛있는 김치찌개를 먹는 시간이 가장 좋습니다.</p>
+    </div>
+</section>
+
+<section id="hobby">
+    <h2>05. MY HOBBY</h2>
+    <p>여가 시간에 즐겨 하는 취미를 소개합니다.</p>
+
+    <div class="cat">
+        <h3>📺 드라마 시청</h3>
+        <p>다양한 드라마를 보며 여가 시간을 보냅니다.</p>
+    </div>
+
+    <div class="cat">
+        <h3>🎬 영화 감상</h3>
+        <p>흥미로운 이야기가 담긴 영화를 즐겨 봅니다.</p>
+    </div>
+</section>
+
+<footer>
+    <p>THANK YOU FOR VISITING!</p>
+    <p>지금까지 김채은의 자기소개였습니다. 🩶</p>
+</footer>
+
+</body>
+</html>
